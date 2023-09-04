@@ -25,13 +25,13 @@ export default function Screen3({navigation}) {
       </Text>
       <View style={styles.buttonContainer}>
         <TouchableHighlight
-          onPress={() => navigation.navigate('Tab1')}
+          onPress={() => navigation.navigate('ShopAway')}
           style={styles.button}
           underlayColor={'#DDE6ED'}>
           <Text>Home</Text>
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={() => navigation.navigate('Tab2')}
+          onPress={() => navigation.navigate('Shop')}
           style={styles.button}
           underlayColor={'#DDE6ED'}>
           <Text>Shop</Text>

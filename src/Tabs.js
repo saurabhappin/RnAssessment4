@@ -11,11 +11,17 @@ const Tab = createMaterialBottomTabNavigator();
 
 export default function Tabs() {
   return (
-    <Tab.Navigator shifting={true}>
+    <Tab.Navigator
+      shifting={true}
+      activeColor="#183D3D"
+      sceneAnimationType="shifting"
+      barStyle={{backgroundColor: '#5C8374'}}>
       <Tab.Screen
         name="Home"
         component={Tab1}
-        options={{tabBarIcon: () => <HomeIcon />}}
+        options={{
+          tabBarIcon: () => <HomeIcon />,
+        }}
       />
       <Tab.Screen
         name="Shop"
