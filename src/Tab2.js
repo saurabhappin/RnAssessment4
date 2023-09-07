@@ -1,5 +1,7 @@
 import React, {useRef, useState} from 'react';
+import LottieView from 'lottie-react-native';
 import axios from 'axios';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -7,6 +9,7 @@ import {
   View,
   FlatList,
   Image,
+  TouchableOpacity,
 } from 'react-native';
 
 const Tab1 = () => {
@@ -42,15 +45,49 @@ const Tab1 = () => {
               <Text style={styles.rating}>Rating: {item.rating.rate}</Text>
               <Text style={styles.price}>₹{item.price}</Text>
             </View>
-            <Text style={styles.unitsLeft}>
-              {/* eslint-disable-next-line react-native/no-inline-styles */}
-              <Text style={{color: 'red'}}>*</Text>
-              {item.rating.count} units left!
-            </Text>
+            <View style={styles.cardBottom}>
+              <Text style={styles.unitsLeft}>
+                {/* eslint-disable-next-line react-native/no-inline-styles */}
+                <Text style={{color: 'red'}}>*</Text>
+                {item.rating.count} units left!
+              </Text>
+              <Wishlist />
+            </View>
           </View>
         )}
       />
     </SafeAreaView>
+  );
+};
+
+const Wishlist = () => {
+  const [isFavorite, setIsFavorite] = useState(false);
+  const pressed = () => {
+    setIsFavorite(!isFavorite);
+  };
+  return (
+    <TouchableOpacity onPress={pressed} activeOpacity={1}>
+      <View style={styles.heart}>
+        {!isFavorite && (
+          <LottieView
+            source={require('../assets/animation_lm69nx5r.json')}
+            autoPlay={false}
+            loop={false}
+            style={styles.wishlistAnimation}
+          />
+        )}
+        {isFavorite && (
+          <LottieView
+            source={require('../assets/animation_lm69nx5r.json')}
+            autoPlay={true}
+            loop={false}
+            progress={1}
+            speed={5}
+            style={styles.wishlistAnimation}
+          />
+        )}
+      </View>
+    </TouchableOpacity>
   );
 };
 
@@ -103,6 +140,23 @@ const styles = StyleSheet.create({
   },
   unitsLeft: {
     paddingVertical: 10,
+  },
+  heart: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  cardBottom: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginRight: 50,
+  },
+  wishlistAnimation: {
+    position: 'relative',
+    width: 100,
+    height: 100,
+    margin: -25,
+    marginRight: -87,
   },
 });
 

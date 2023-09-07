@@ -13,25 +13,28 @@ export default function Tabs() {
   return (
     <Tab.Navigator
       shifting={true}
-      activeColor="#183D3D"
       sceneAnimationType="shifting"
-      barStyle={{backgroundColor: '#5C8374'}}>
+      barStyle={{backgroundColor: 'rgba(0,0,0,0)', height: '11%'}}
+      labeled={false}>
       <Tab.Screen
         name="Home"
         component={Tab1}
         options={{
           tabBarIcon: () => <HomeIcon />,
+          tabBarColor: 'transparent',
         }}
       />
+
       <Tab.Screen
         name="Shop"
         component={Tab2}
-        options={{tabBarIcon: () => <CartSVG2 />}}
+        options={{tabBarIcon: () => <CartSVG2 />, tabBarColor: 'yellow'}}
       />
+
       <Tab.Screen
         name="Sign Up"
         component={Tab3}
-        options={{tabBarIcon: () => <UserIcon />}}
+        options={{tabBarIcon: () => <UserIcon />, tabBarColor: 'transparent'}}
       />
     </Tab.Navigator>
   );

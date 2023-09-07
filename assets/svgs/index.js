@@ -17,6 +17,8 @@ import ArrowSVG from './arrowLeft.svg';
 import CartSVG from './cart.svg';
 import HomeIcon from './homeIcon.svg';
 import CartSVG2 from './cart2.svg';
+import Heart from './heart.svg';
+import FillHeart from './fillHeart.svg';
 
 export {
   CarFront,
@@ -38,4 +40,6 @@ export {
   CartSVG,
   HomeIcon,
   CartSVG2,
+  Heart,
+  FillHeart,
 };
