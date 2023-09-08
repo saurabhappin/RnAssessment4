@@ -17,6 +17,11 @@ import ArrowSVG from './arrowLeft.svg';
 import CartSVG from './cart.svg';
 import HomeIcon from './homeIcon.svg';
 import CartSVG2 from './cart2.svg';
+import ProfileIcon from './profile.svg';
+import AddressIcon from './address.svg';
+import EditIcon from './editIcon.svg';
+import BackIcon2 from './backIcon2.svg';
+import CaretRight from './caretRight.svg';
 
 export {
   CarFront,
@@ -38,4 +43,9 @@ export {
   CartSVG,
   HomeIcon,
   CartSVG2,
+  ProfileIcon,
+  AddressIcon,
+  EditIcon,
+  BackIcon2,
+  CaretRight,
 };

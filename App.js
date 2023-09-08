@@ -1,31 +1,18 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 import 'react-native-gesture-handler';
-import React from 'react';
+import {React} from 'react';
+import ContactsManager from './src/ContactsManager';
+import {Provider} from 'react-redux';
+import store from './src/ReduxHandler.js/store';
 
-import Tabs from './src/Tabs';
-import Screens from './src/Screens';
-import DrawerNav from './src/Drawer';
-
-//Please comment other two navigation components to see each of them properly
 function App() {
   return (
-    <>
-      {/* <Tabs /> */}
-      {/* <Screens /> */}
-      <DrawerNav />
-    </>
+    // <SafeAreaView>
+    //   {/* <DrawerNav /> */}
+    //   <Text>Hello World!</Text>
+    // </SafeAreaView>
+    <Provider store={store}>
+      <ContactsManager />
+    </Provider>
   );
 }
 
