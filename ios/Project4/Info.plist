@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,37 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SourceCodePro-Black.otf</string>
+		<string>SourceCodePro-BlackIt.otf</string>
+		<string>SourceCodePro-Bold.otf</string>
+		<string>SourceCodePro-BoldIt.otf</string>
+		<string>SourceCodePro-ExtraLight.otf</string>
+		<string>SourceCodePro-ExtraLightIt.otf</string>
+		<string>SourceCodePro-It.otf</string>
+		<string>SourceCodePro-Light.otf</string>
+		<string>SourceCodePro-LightIt.otf</string>
+		<string>SourceCodePro-Medium.otf</string>
+		<string>SourceCodePro-MediumIt.otf</string>
+		<string>SourceCodePro-Regular.otf</string>
+		<string>SourceCodePro-Semibold.otf</string>
+		<string>SourceCodePro-SemiboldIt.otf</string>
+		<string>SourceCodeProBlack.otf</string>
+		<string>SourceCodeProBlackIt.otf</string>
+		<string>SourceCodeProBold.otf</string>
+		<string>SourceCodeProBoldIt.otf</string>
+		<string>SourceCodeProExtraLight.otf</string>
+		<string>SourceCodeProExtraLightIt.otf</string>
+		<string>SourceCodeProIt.otf</string>
+		<string>SourceCodeProLight.otf</string>
+		<string>SourceCodeProLightIt.otf</string>
+		<string>SourceCodeProMedium.otf</string>
+		<string>SourceCodeProMediumIt.otf</string>
+		<string>SourceCodeProRegular.otf</string>
+		<string>SourceCodeProSemibold.otf</string>
+		<string>SourceCodeProSemiboldIt.otf</string>
+		<string>AlexBrush-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

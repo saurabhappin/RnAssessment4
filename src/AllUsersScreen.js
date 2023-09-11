@@ -40,7 +40,7 @@ export default function AllUsersSreen({navigation}) {
                 <Text style={styles.rating}>{item.phone_number}</Text>
               </View>
               <View style={styles.caret}>
-                <CaretRight height={20} width={20}/>
+                <CaretRight height={20} width={20} />
               </View>
             </View>
           </TouchableOpacity>

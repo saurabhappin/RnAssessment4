@@ -12,8 +12,37 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15D4D263E9DB44AAABB90B96 /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F7983A090C94FC2B1683D8B /* AlexBrush-Regular.ttf */; };
+		181F3CF5CB6C48CB8490B9D7 /* SourceCodePro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6A22822388F464FA5B9AF0E /* SourceCodePro-Semibold.otf */; };
+		260090AB45034FCDBDE7F40B /* SourceCodeProSemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = E49973D9F0A6402AB301A1FF /* SourceCodeProSemiboldIt.otf */; };
+		35D183301E4B4B07981CF606 /* SourceCodePro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 62B1AEBEECC54D4BAFC4CFEF /* SourceCodePro-ExtraLightIt.otf */; };
+		39D40DC93E7049E988E241CE /* SourceCodeProBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D1FC4E7D75E4B2FB8691ADE /* SourceCodeProBlack.otf */; };
+		3DBCD8F9B1A343C98E3F50C9 /* SourceCodeProRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 471B74EBFF6645DBBB9847AC /* SourceCodeProRegular.otf */; };
+		419E1D69E2A64AAFAA8A3C79 /* SourceCodeProIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76AA65ADC0814E7B952DA11A /* SourceCodeProIt.otf */; };
+		4694FE50D6F24236B8DA929A /* SourceCodePro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5657A576CED34F33828DAAFE /* SourceCodePro-Medium.otf */; };
+		595A94B83C92410BAB2C3FD9 /* SourceCodePro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E591E632934CC4AF6ABFC4 /* SourceCodePro-Bold.otf */; };
+		6D7912FCF2DA44AD990A9B3D /* SourceCodeProSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95E64D35C422408FB6FB175E /* SourceCodeProSemibold.otf */; };
+		72FA3ECB2F4340C7B3F9B983 /* SourceCodeProLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2AF965BC1F5488DB60AAF8E /* SourceCodeProLight.otf */; };
+		76335001D8C041CBB1B476B3 /* SourceCodeProBlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2DEDA7DF715C42E1AEBF8FAD /* SourceCodeProBlackIt.otf */; };
 		7699B88040F8A987B510C191 /* libPods-Project4-Project4Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Project4-Project4Tests.a */; };
+		7F9FFE2674354A6897ACB431 /* SourceCodeProLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3045FD7A95147DAAA6961AB /* SourceCodeProLightIt.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9450BBCB683542EF95811486 /* SourceCodeProMediumIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBEE945CEF064DCE8B21A42C /* SourceCodeProMediumIt.otf */; };
+		96E9081A3D844DB8BCEF01D7 /* SourceCodePro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 459E382FECA34C93B0BAA254 /* SourceCodePro-Light.otf */; };
+		9786A28F9CC844D5B673EB46 /* SourceCodePro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC70ABBB447542489750363A /* SourceCodePro-Black.otf */; };
+		991D9DB8ED3B4F9388705857 /* SourceCodeProExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E21D2DA23A344A9F99569463 /* SourceCodeProExtraLight.otf */; };
+		9CF22B97221C49239C0EF1D7 /* SourceCodeProMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 362B4D5B156145958CE41AE6 /* SourceCodeProMedium.otf */; };
+		A89A8B710B8C4B738A40C44F /* SourceCodePro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = CFC2DDFC286D4DE0AD423880 /* SourceCodePro-BlackIt.otf */; };
+		AC2E3CBCA03A4E4987D93D03 /* SourceCodePro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 402FE41FB3D1460EB7CC273E /* SourceCodePro-ExtraLight.otf */; };
+		AD755EF1E15F42EDA363F18F /* SourceCodePro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = CFDA765C31B3400BBD32DCFD /* SourceCodePro-BoldIt.otf */; };
+		B03C7372F6DB4C00851A9270 /* SourceCodePro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8517A75E49F244B7A8FC4C79 /* SourceCodePro-SemiboldIt.otf */; };
+		C36F0BCC27424E9FA4529A0A /* SourceCodePro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 468E801EC4E043C486D85F4C /* SourceCodePro-LightIt.otf */; };
+		CC693D4B27FE4D57996B7BE2 /* SourceCodeProBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78C93D234E9343129134947C /* SourceCodeProBold.otf */; };
+		CCE0B70E6E034ACAA5AF60EE /* SourceCodeProBoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9A9129E2EA745FABEB67D1C /* SourceCodeProBoldIt.otf */; };
+		D382A82BD33042FA968DA4CE /* SourceCodePro-MediumIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 267E7A2404BB413696389AB8 /* SourceCodePro-MediumIt.otf */; };
+		DAD562746CA6495281342767 /* SourceCodeProExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77D9486F37EB4F8485D0D81B /* SourceCodeProExtraLightIt.otf */; };
+		DCEEBE7A69DC4935A5CC436E /* SourceCodePro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E60BC129FB6843B69234DE7C /* SourceCodePro-Regular.otf */; };
+		E79C753FAF2C4107A1E6C385 /* SourceCodePro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 874D97B583234108910053BF /* SourceCodePro-It.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +59,7 @@
 		00E356EE1AD99517003FC87E /* Project4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Project4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project4Tests.m; sourceTree = "<group>"; };
+		0F7983A090C94FC2B1683D8B /* AlexBrush-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AlexBrush-Regular.ttf"; path = "../assets/fonts/AlexBrush-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Project4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Project4/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Project4/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,12 +67,40 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Project4/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Project4/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Project4-Project4Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project4-Project4Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267E7A2404BB413696389AB8 /* SourceCodePro-MediumIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-MediumIt.otf"; path = "../assets/fonts/SourceCodePro-MediumIt.otf"; sourceTree = "<group>"; };
+		2DEDA7DF715C42E1AEBF8FAD /* SourceCodeProBlackIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProBlackIt.otf; path = ../assets/fonts/SourceCodeProBlackIt.otf; sourceTree = "<group>"; };
+		362B4D5B156145958CE41AE6 /* SourceCodeProMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProMedium.otf; path = ../assets/fonts/SourceCodeProMedium.otf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Project4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project4.debug.xcconfig"; path = "Target Support Files/Pods-Project4/Pods-Project4.debug.xcconfig"; sourceTree = "<group>"; };
+		402FE41FB3D1460EB7CC273E /* SourceCodePro-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraLight.otf"; path = "../assets/fonts/SourceCodePro-ExtraLight.otf"; sourceTree = "<group>"; };
+		459E382FECA34C93B0BAA254 /* SourceCodePro-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Light.otf"; path = "../assets/fonts/SourceCodePro-Light.otf"; sourceTree = "<group>"; };
+		468E801EC4E043C486D85F4C /* SourceCodePro-LightIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-LightIt.otf"; path = "../assets/fonts/SourceCodePro-LightIt.otf"; sourceTree = "<group>"; };
+		471B74EBFF6645DBBB9847AC /* SourceCodeProRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProRegular.otf; path = ../assets/fonts/SourceCodeProRegular.otf; sourceTree = "<group>"; };
+		5657A576CED34F33828DAAFE /* SourceCodePro-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Medium.otf"; path = "../assets/fonts/SourceCodePro-Medium.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Project4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project4.release.xcconfig"; path = "Target Support Files/Pods-Project4/Pods-Project4.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Project4-Project4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project4-Project4Tests.debug.xcconfig"; path = "Target Support Files/Pods-Project4-Project4Tests/Pods-Project4-Project4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Project4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B1AEBEECC54D4BAFC4CFEF /* SourceCodePro-ExtraLightIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraLightIt.otf"; path = "../assets/fonts/SourceCodePro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		76AA65ADC0814E7B952DA11A /* SourceCodeProIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProIt.otf; path = ../assets/fonts/SourceCodeProIt.otf; sourceTree = "<group>"; };
+		77D9486F37EB4F8485D0D81B /* SourceCodeProExtraLightIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProExtraLightIt.otf; path = ../assets/fonts/SourceCodeProExtraLightIt.otf; sourceTree = "<group>"; };
+		78C93D234E9343129134947C /* SourceCodeProBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProBold.otf; path = ../assets/fonts/SourceCodeProBold.otf; sourceTree = "<group>"; };
+		7D1FC4E7D75E4B2FB8691ADE /* SourceCodeProBlack.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProBlack.otf; path = ../assets/fonts/SourceCodeProBlack.otf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Project4/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8517A75E49F244B7A8FC4C79 /* SourceCodePro-SemiboldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-SemiboldIt.otf"; path = "../assets/fonts/SourceCodePro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		874D97B583234108910053BF /* SourceCodePro-It.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-It.otf"; path = "../assets/fonts/SourceCodePro-It.otf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Project4-Project4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project4-Project4Tests.release.xcconfig"; path = "Target Support Files/Pods-Project4-Project4Tests/Pods-Project4-Project4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92E591E632934CC4AF6ABFC4 /* SourceCodePro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Bold.otf"; path = "../assets/fonts/SourceCodePro-Bold.otf"; sourceTree = "<group>"; };
+		95E64D35C422408FB6FB175E /* SourceCodeProSemibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProSemibold.otf; path = ../assets/fonts/SourceCodeProSemibold.otf; sourceTree = "<group>"; };
+		A2AF965BC1F5488DB60AAF8E /* SourceCodeProLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProLight.otf; path = ../assets/fonts/SourceCodeProLight.otf; sourceTree = "<group>"; };
+		B6A22822388F464FA5B9AF0E /* SourceCodePro-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Semibold.otf"; path = "../assets/fonts/SourceCodePro-Semibold.otf"; sourceTree = "<group>"; };
+		BBEE945CEF064DCE8B21A42C /* SourceCodeProMediumIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProMediumIt.otf; path = ../assets/fonts/SourceCodeProMediumIt.otf; sourceTree = "<group>"; };
+		C9A9129E2EA745FABEB67D1C /* SourceCodeProBoldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProBoldIt.otf; path = ../assets/fonts/SourceCodeProBoldIt.otf; sourceTree = "<group>"; };
+		CFC2DDFC286D4DE0AD423880 /* SourceCodePro-BlackIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-BlackIt.otf"; path = "../assets/fonts/SourceCodePro-BlackIt.otf"; sourceTree = "<group>"; };
+		CFDA765C31B3400BBD32DCFD /* SourceCodePro-BoldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-BoldIt.otf"; path = "../assets/fonts/SourceCodePro-BoldIt.otf"; sourceTree = "<group>"; };
+		D3045FD7A95147DAAA6961AB /* SourceCodeProLightIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProLightIt.otf; path = ../assets/fonts/SourceCodeProLightIt.otf; sourceTree = "<group>"; };
+		E21D2DA23A344A9F99569463 /* SourceCodeProExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProExtraLight.otf; path = ../assets/fonts/SourceCodeProExtraLight.otf; sourceTree = "<group>"; };
+		E49973D9F0A6402AB301A1FF /* SourceCodeProSemiboldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SourceCodeProSemiboldIt.otf; path = ../assets/fonts/SourceCodeProSemiboldIt.otf; sourceTree = "<group>"; };
+		E60BC129FB6843B69234DE7C /* SourceCodePro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Regular.otf"; path = "../assets/fonts/SourceCodePro-Regular.otf"; sourceTree = "<group>"; };
+		EC70ABBB447542489750363A /* SourceCodePro-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Black.otf"; path = "../assets/fonts/SourceCodePro-Black.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -81,6 +139,43 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034B79E490F145EEA3C26A22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC70ABBB447542489750363A /* SourceCodePro-Black.otf */,
+				CFC2DDFC286D4DE0AD423880 /* SourceCodePro-BlackIt.otf */,
+				92E591E632934CC4AF6ABFC4 /* SourceCodePro-Bold.otf */,
+				CFDA765C31B3400BBD32DCFD /* SourceCodePro-BoldIt.otf */,
+				402FE41FB3D1460EB7CC273E /* SourceCodePro-ExtraLight.otf */,
+				62B1AEBEECC54D4BAFC4CFEF /* SourceCodePro-ExtraLightIt.otf */,
+				874D97B583234108910053BF /* SourceCodePro-It.otf */,
+				459E382FECA34C93B0BAA254 /* SourceCodePro-Light.otf */,
+				468E801EC4E043C486D85F4C /* SourceCodePro-LightIt.otf */,
+				5657A576CED34F33828DAAFE /* SourceCodePro-Medium.otf */,
+				267E7A2404BB413696389AB8 /* SourceCodePro-MediumIt.otf */,
+				E60BC129FB6843B69234DE7C /* SourceCodePro-Regular.otf */,
+				B6A22822388F464FA5B9AF0E /* SourceCodePro-Semibold.otf */,
+				8517A75E49F244B7A8FC4C79 /* SourceCodePro-SemiboldIt.otf */,
+				7D1FC4E7D75E4B2FB8691ADE /* SourceCodeProBlack.otf */,
+				2DEDA7DF715C42E1AEBF8FAD /* SourceCodeProBlackIt.otf */,
+				78C93D234E9343129134947C /* SourceCodeProBold.otf */,
+				C9A9129E2EA745FABEB67D1C /* SourceCodeProBoldIt.otf */,
+				E21D2DA23A344A9F99569463 /* SourceCodeProExtraLight.otf */,
+				77D9486F37EB4F8485D0D81B /* SourceCodeProExtraLightIt.otf */,
+				76AA65ADC0814E7B952DA11A /* SourceCodeProIt.otf */,
+				A2AF965BC1F5488DB60AAF8E /* SourceCodeProLight.otf */,
+				D3045FD7A95147DAAA6961AB /* SourceCodeProLightIt.otf */,
+				362B4D5B156145958CE41AE6 /* SourceCodeProMedium.otf */,
+				BBEE945CEF064DCE8B21A42C /* SourceCodeProMediumIt.otf */,
+				471B74EBFF6645DBBB9847AC /* SourceCodeProRegular.otf */,
+				95E64D35C422408FB6FB175E /* SourceCodeProSemibold.otf */,
+				E49973D9F0A6402AB301A1FF /* SourceCodeProSemiboldIt.otf */,
+				0F7983A090C94FC2B1683D8B /* AlexBrush-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* Project4 */ = {
@@ -122,6 +217,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				034B79E490F145EEA3C26A22 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +340,35 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9786A28F9CC844D5B673EB46 /* SourceCodePro-Black.otf in Resources */,
+				A89A8B710B8C4B738A40C44F /* SourceCodePro-BlackIt.otf in Resources */,
+				595A94B83C92410BAB2C3FD9 /* SourceCodePro-Bold.otf in Resources */,
+				AD755EF1E15F42EDA363F18F /* SourceCodePro-BoldIt.otf in Resources */,
+				AC2E3CBCA03A4E4987D93D03 /* SourceCodePro-ExtraLight.otf in Resources */,
+				35D183301E4B4B07981CF606 /* SourceCodePro-ExtraLightIt.otf in Resources */,
+				E79C753FAF2C4107A1E6C385 /* SourceCodePro-It.otf in Resources */,
+				96E9081A3D844DB8BCEF01D7 /* SourceCodePro-Light.otf in Resources */,
+				C36F0BCC27424E9FA4529A0A /* SourceCodePro-LightIt.otf in Resources */,
+				4694FE50D6F24236B8DA929A /* SourceCodePro-Medium.otf in Resources */,
+				D382A82BD33042FA968DA4CE /* SourceCodePro-MediumIt.otf in Resources */,
+				DCEEBE7A69DC4935A5CC436E /* SourceCodePro-Regular.otf in Resources */,
+				181F3CF5CB6C48CB8490B9D7 /* SourceCodePro-Semibold.otf in Resources */,
+				B03C7372F6DB4C00851A9270 /* SourceCodePro-SemiboldIt.otf in Resources */,
+				39D40DC93E7049E988E241CE /* SourceCodeProBlack.otf in Resources */,
+				76335001D8C041CBB1B476B3 /* SourceCodeProBlackIt.otf in Resources */,
+				CC693D4B27FE4D57996B7BE2 /* SourceCodeProBold.otf in Resources */,
+				CCE0B70E6E034ACAA5AF60EE /* SourceCodeProBoldIt.otf in Resources */,
+				991D9DB8ED3B4F9388705857 /* SourceCodeProExtraLight.otf in Resources */,
+				DAD562746CA6495281342767 /* SourceCodeProExtraLightIt.otf in Resources */,
+				419E1D69E2A64AAFAA8A3C79 /* SourceCodeProIt.otf in Resources */,
+				72FA3ECB2F4340C7B3F9B983 /* SourceCodeProLight.otf in Resources */,
+				7F9FFE2674354A6897ACB431 /* SourceCodeProLightIt.otf in Resources */,
+				9CF22B97221C49239C0EF1D7 /* SourceCodeProMedium.otf in Resources */,
+				9450BBCB683542EF95811486 /* SourceCodeProMediumIt.otf in Resources */,
+				3DBCD8F9B1A343C98E3F50C9 /* SourceCodeProRegular.otf in Resources */,
+				6D7912FCF2DA44AD990A9B3D /* SourceCodeProSemibold.otf in Resources */,
+				260090AB45034FCDBDE7F40B /* SourceCodeProSemiboldIt.otf in Resources */,
+				15D4D263E9DB44AAABB90B96 /* AlexBrush-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
