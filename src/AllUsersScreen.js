@@ -8,6 +8,7 @@ import {
   FlatList,
   Image,
   TouchableOpacity,
+  Platform,
 } from 'react-native';
 import {getContacts} from './ReduxHandler.js/Action';
 import {CaretRight} from '../assets/svgs';
@@ -28,7 +29,9 @@ export default function AllUsersSreen({navigation}) {
         data={Data}
         keyExtractor={item => item.id}
         renderItem={({item}) => (
-          <TouchableOpacity onPress={() => navigation.navigate('User Details')}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate('User Details')}
+            activeOpacity={Platform.OS === 'ios' ? 0.7 : 0.9}>
             <View style={styles.card}>
               <View style={styles.imageContainer}>
                 <Image style={styles.image} source={{uri: item.avatar}} />
@@ -53,8 +56,9 @@ export default function AllUsersSreen({navigation}) {
 const styles = StyleSheet.create({
   mainText: {
     letterSpacing: 0.64,
-    fontSize: 28,
+    fontSize: 36,
     textAlign: 'center',
+    fontFamily: 'AlexBrush-Regular',
   },
   button: {
     borderRadius: 25,
