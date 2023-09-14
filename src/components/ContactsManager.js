@@ -2,9 +2,8 @@ import React from 'react';
 // import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {UserIcon, CartSVG2, HomeIcon} from '../assets/svgs';
-import AllUsersSreen from './AllUsersScreen';
-import UserScreen from './UserScreen';
+import AllUsersSreen from '../screens/AllUsersScreen';
+import UserScreen from '../navigation/UserScreen';
 import {NavigationContainer} from '@react-navigation/native';
 
 const Stack = createNativeStackNavigator();

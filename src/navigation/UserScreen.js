@@ -2,9 +2,9 @@ import React from 'react';
 // import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
 
-import {ProfileIcon, AddressIcon} from '../assets/svgs';
-import Contact from './ContactInformation';
-import Address from './AddressInformation';
+import {ProfileIcon, AddressIcon} from '../../assets/svgs';
+import Contact from '../screens/ContactInformation';
+import Address from '../screens/AddressInformation';
 
 const Tab = createMaterialBottomTabNavigator();
 

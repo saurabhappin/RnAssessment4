@@ -22,6 +22,9 @@ import AddressIcon from './address.svg';
 import EditIcon from './editIcon.svg';
 import BackIcon2 from './backIcon2.svg';
 import CaretRight from './caretRight.svg';
+import AddIcon from './addIcon.svg';
+import AddIconLarge from './addIconLarge.svg';
+import DeleteIcon from './deleteIcon.svg';
 
 export {
   CarFront,
@@ -48,4 +51,7 @@ export {
   EditIcon,
   BackIcon2,
   CaretRight,
+  AddIcon,
+  AddIconLarge,
+  DeleteIcon,
 };

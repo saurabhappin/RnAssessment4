@@ -8,9 +8,9 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import {getContactDetails} from './ReduxHandler.js/Action';
-import {BackIcon2, EditIcon} from '../assets/svgs';
-import Colors from '../assets/colors';
+import {getContactDetails} from '../redux/Action';
+import {BackIcon2, EditIcon} from '../../assets/svgs';
+import Colors from '../../assets/colors';
 
 export default function Address({navigation}) {
   const dispatch = useDispatch();

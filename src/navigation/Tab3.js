@@ -36,8 +36,8 @@ import {
   BellSVG,
   ArrowSVG,
   CartSVG,
-} from '../assets/svgs';
-import Colors from '../assets/colors';
+} from '../../assets/svgs';
+import Colors from '../../assets/colors';
 
 const Tab3 = () => {
   const [refreshing, setRefreshing] = useState(false);

@@ -10,8 +10,8 @@ import {
   TouchableOpacity,
   Platform,
 } from 'react-native';
-import {getContacts} from './ReduxHandler.js/Action';
-import {CaretRight} from '../assets/svgs';
+import {getContacts} from '../redux/Action';
+import {CaretRight} from '../../assets/svgs';
 
 export default function AllUsersSreen({navigation}) {
   const dispatch = useDispatch();
